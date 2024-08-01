@@ -1,3 +1,4 @@
+// 1
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
@@ -10,7 +11,7 @@ console.log("Випадкове число від 40 до 50:", randomNum2);
 let randomNum3 = getRandomInt(1, 100);
 console.log("Випадкове число від 1 до 100:", randomNum3);
 
-
+// 2
 
 function greet(msg, name) {
     return msg + ', ' + name;
@@ -20,17 +21,13 @@ console.log(greet('Hi', 'John'));
 console.log(greet('Hey', 'Bob'));
 console.log(greet('Hello', 'Mary'));
 
-
-
+// 3
 
 function sumBigIntegers(numStr1, numStr2) {
 
     const bigInt1 = BigInt(numStr1);
     const bigInt2 = BigInt(numStr2);
-
     const sum = bigInt1 + bigInt2;
-
-
     return sum;
 }
 
